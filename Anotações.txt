@@ -1,0 +1,8 @@
+browser-sync --version
+2.24.6
+
+Startando o serviço:
+browser-sync start -f . --server
+
+Cor Botões
+#af1400
