@@ -225,7 +225,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 /*banner*/
 .banner-full-image {
-    background: rgba(0, 0, 0, 0) url("../images/banner.png") no-repeat scroll center top / cover ;
+    background: rgba(0, 0, 0, 0) url("../images/Fotos\ Isabelly/Home/Home4.jpg") no-repeat scroll center top / cover ;
     background-attachment: fixed;
     height: 480px;
     position: relative;
@@ -709,7 +709,6 @@ footer{
 .share {
     cursor: default;
     display: inline-block;
-    margin: 0 0.5em;
     padding: 0;
     position: fixed;
     right: 20px;
@@ -717,74 +716,33 @@ footer{
     top: 35px;
     z-index: 99999;
 }
-.follow:hover .label, .share:hover .label {
-    opacity: 0;
-    -webkit-transition: opacity .5s .125s ease-out;
-    transition: opacity .5s .125s ease-out;
-}
-.follow:hover .icon, .share:hover .icon {
-    border-radius: 50%;
+
+.icon{
+    background-color: #af1400;
+    line-height: 2.4em;
     margin: 0 0;
 }
 
-.icon, .label {
-    background-color: #af1400;
-    line-height: 2.4em;
-}
 
-.label {
-    border-radius: 1rem;
-    font-size: 13px;
-    font-weight: 700;
-    left: 0;
-    letter-spacing: 1px;
-    opacity: 1;
-    pointer-events: none;
-    position: absolute;
-    right: 0;
-    text-transform: capitalize;
-    top: 0;
-    transition: opacity 0.5s ease-out 0.75s;
-    padding: 0;
-}
 .icon {
-    border-radius: 0;
+    border-radius: 50px;
     cursor: pointer;
     display: inline-block;
     height: 2.4em;
-    margin: 0 -.5em;
-    -webkit-transition: background-color .5s ease-out, border-radius .5s .25s ease-out, margin .5s .25s ease-out;
-    transition: background-color .5s ease-out, border-radius .5s .25s ease-out, margin .5s .25s ease-out;
+    margin: 2px;
     width: 2.4em;
     color: #fff;
 }
 .facebook {
-    background-color: #31b0d5;
+    background-color: #0036e6;
 }
 .twitter {
     background-color: #00aced;
 }
-.google-plus {
-    background-color: #dd4b39;
-}
-.pinterest {
-    background-color: #cb2027;
-}
-.icon.first {
-    border-bottom-left-radius: 1em;
-    border-top-left-radius: 1em;
-    margin-left: 0;
-}
-.icon.last {
-    border-bottom-right-radius: 1em;
-    border-top-right-radius: 1em;
-    margin-right: 0;
-}
-.icon:hover {
-   color: #fff;
-}
 
-
+.instagram {
+    background-color: #fc7de0;
+}
 
 /*preload*/
 #preloader-container {
@@ -841,3 +799,15 @@ footer{
 }
 }
 
+.menu-icon{
+    height: 30px;
+    width: 30px;
+}
+
+.menu img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+  }
